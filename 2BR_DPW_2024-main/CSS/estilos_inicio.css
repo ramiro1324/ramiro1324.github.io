@@ -1,0 +1,536 @@
+.vt323-regular {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+.share-tech-mono-regular {
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    font-family: "Share Tech Mono";
+    font-size: 1.5rem;
+}
+nav{
+    height: 15vh;
+    width: 33vw;
+
+}
+
+i{
+    margin-right: 1rem;
+}
+#navPrincipal{
+    background: linear-gradient(#c93e25, #fd6448);
+    width: 100vw;
+    height: 15vh;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav2{
+    width: 34vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#logo{
+    width: 13vw;
+    height: auto;
+}
+.iconos{
+    width: 2rem;
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+
+li{
+    font-size: 0.8rem;
+    margin-right: 1rem;
+}
+.nav3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tituloPrincipal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(#000b4d, #000000);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+.videoFondo {
+    position: fixed;
+    top: 100;
+    left: 0;
+    width: 100vw;
+    height: 79vh;
+    z-index: -1;
+}
+
+.videoFondo video {
+    width: 100vw;
+    height: 100vh;
+    object-fit:cover;
+    z-index: -1;
+}
+.Contenido_Inicio{
+    color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(250, 235, 215, 0.596);
+}
+.Contenido_Sup{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+.Contenido_Inf{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+    z-index: 1;
+}
+.Division{
+    width: 20vw;
+    height: 20vh;
+    margin: .5rem;
+    border: 4px solid rgb(114, 114, 114);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    font-size: 1.4rem;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.Division p{
+    font-size: 1.5rem;
+    height: 10rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+
+}
+.Division i{
+    font-size: 2rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+.seccion_comentarios{
+    background-color: #c93e25;
+}
+
+#barraBusqueda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 3rem;
+    margin: 2rem auto;
+    border-radius: 25px;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    z-index: 1;
+}
+
+#inputBusqueda {
+    flex: 1;
+    height: 100%;
+    border: none;
+    padding: 0 1rem;
+    font-size: 1rem;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+}
+
+#inputBusqueda::placeholder {
+    color: #aaa;
+}
+
+#botonBusqueda {
+    background-color: #c93e25;
+    border: none;
+    height: 100%;
+    width: 3rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 0 25px 25px 0;
+    transition: background-color 0.3s ease;
+    z-index: 1;
+}
+
+#botonBusqueda:hover {
+    background-color: #a8321f;
+}
+
+#botonBusqueda i {
+    font-size: 1.2rem;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 1rem;
+}
+
+a:hover{
+    color: rgb(41, 41, 41);
+}
+a:active{
+    color: white;
+}
+
+#seccion_funciones{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#seccion_comentarios{
+    overflow: hidden;
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    flex-direction: column;
+}
+.columnaDatos{
+    width: 100vw;
+    height: 40vh;
+}
+.mapaGoogle{
+    width: 100vw;
+    height: 60vh;
+}
+.columnaDatos{
+    background: linear-gradient(#ca3c22, #fa684e);
+    border-radius: 0rem 0rem 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(56, 54, 54);
+}
+
+#datosContacto{
+    margin-left: 2rem;
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formulario{
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#formulario_2{
+    height: 50vh;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.lista_2{
+    display: flex;
+    flex-direction: column;
+
+}
+.li_texto, .li_titulo{
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    margin-left: 2rem;
+}
+.li_titulo{
+    color: rgb(144, 144, 255);
+}
+input, textarea{
+    padding: 0px;
+    margin: 6px;
+    width: 30rem;
+    border: none;
+    height: 2rem;
+    background-color: rgb(240, 248, 255);
+    font-family: Verdana;
+}
+
+#NombreApellido{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    width: 30rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#NombreApellido :first-child{
+    padding: 0px;
+    margin-left: 0px;
+    width: 100%;
+}
+#NombreApellido :last-child{
+    padding: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+#areaMensaje{
+    width: 30rem;
+    height: 10rem;
+}
+#botonFormulario{
+    margin-top: 1rem;
+    width: 10rem;
+    height: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+#botonFormulario:hover{
+    background-color: rgb(126, 126, 126);
+    color: antiquewhite;
+}
+#botonFormulario:active{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#contenido_funciones{
+    width: 100vw;
+    height: 40vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#barraBusquedaDiv{
+    background-color: rgba(250, 235, 215, 0.596);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60vh;
+}
+
+#contenido_funciones div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#seccion_horarios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#tituloHorarios{
+    width: 100vw;
+    height: 50vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333333;
+}
+
+#Horarios{
+    background-color: white;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnDescargarHorario{
+    display: inline-block;
+    padding: 2rem 6rem;
+    background-color: #b93b00;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-size: 1rem; /* Reducir tamaño de fuente */
+        flex-direction: column; /* Asegura que todo se alinee verticalmente */
+        overflow-x: hidden;
+    }
+
+    nav {
+        height: auto;
+        width: 100%; /* Alinear elementos en columnas */
+    }
+
+    .nav2 {
+        font-size: 1rem; /* Ajustar el tamaño del texto */
+        width: 100%;
+    }
+
+    #logo {
+        width: 30%;
+        min-width: 130px;
+        height: auto;
+    }
+
+    ul {
+        flex-direction: column; /* Cambiar de fila a columna */
+    }
+
+    li {
+        margin: 0.5rem 0; /* Espaciado adecuado */
+    }
+    .Contenido_Sup, 
+    .Contenido_Inf { /* Asegurar disposición vertical */
+        height: auto;
+        flex-wrap: wrap;
+        color: black;
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(250, 235, 215, 0.596);
+        font-size: 1rem;
+    }
+
+    .Division {
+        width: 40vw; /* Adaptar tamaño */
+        margin: .5rem;
+        margin-left: 0;
+    }
+
+    #barraBusqueda {
+        width: 80%;
+    }
+    #contenido_funciones{
+        flex-direction: column;
+        font-size: 1.5rem;
+    }
+    input, textarea {
+        width: 90%; /* Adaptar inputs al ancho */
+    }
+    #datosContacto{
+        width: 50%;
+        margin-left: 2rem;
+    }
+    #datosContacto li{
+        flex-direction: row;
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+    #NombreApellido :first-child{
+        padding: 0px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    #NombreApellido :last-child{
+        padding: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+    #NombreApellido{
+        width: 20rem;
+    }
+    #areaMensaje{
+        width: 20rem;
+        height: 10rem;
+    }
+    .btnDescargarHorario {
+        padding: 1rem 4rem; /* Reducir tamaño de botón */
+        font-size: 1rem;
+    }
+    div #inputEmail{
+        width: 20rem;
+
+    }
+    .lista_2 .li_texto{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 50%;
+    }
+}
